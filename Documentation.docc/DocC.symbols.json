@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "formatVersion": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "generator": "docc-generate-symbol-graph"
+  },
+  "module": {
+    "bystanders": [],
+    "isVirtual": false,
+    "name": "bwi2023",
+    "platform": {},
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    }
+  },
+  "relationships": [],
+  "symbols": []
+}
