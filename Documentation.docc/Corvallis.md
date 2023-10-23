@@ -1,6 +1,6 @@
 # Corvallis, Oregon
 
-San Diego at zoom level 9.
+1936 aerial imagery at Oregon State University.  From the OSU Digital Library.
 
 @Metadata {
     @Available("1936", introduced: "")
@@ -37,7 +37,7 @@ San Diego at zoom level 9.
 }
 
 
-### Demo Corvallis A11Y
+### Demo Corvallis A11Y 🎥 
 @TabNavigator {
         
     @Tab("xSmall") {
@@ -48,7 +48,7 @@ San Diego at zoom level 9.
         ![](Corvallis-xxxL)
     }
 
-    @Tab("Video") {
+    @Tab("🎥 Corvallis + A11Y") {
         @Video(source: "Corvallis-A11Y")
     }
 }

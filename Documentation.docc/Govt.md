@@ -1,4 +1,4 @@
-# Good Maps come from the Government
+# Good Maps come from Government
 
 Search cities, states and federal web sites for REST or WMTS endpoints.
 
