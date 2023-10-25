@@ -52,22 +52,23 @@ serve tmp/distFromDocker
 
 ### Production
 
-Convert documentation from a source bundle, and prepare for hosting on GH Pages
+Convert documentation from a source bundle, and prepare for hosting on GH Pages.
 
-Since we used the switch `--hosting-base-path docs`, then this is the version that would be posted to GitHub Pages and assumes that the root is `/docs`.
+Since we used the switch `--hosting-base-path docs`, and we assume that the `baseUrl` root is `/bwi2023`.  This is the version that would be posted to GitHub Pages as a production build.  Output folder is called `docs` and is the folder on the local development machine.  GitHub Pages can be configured to serve off the repo from either `/` or `/docs`.
 
-* Set the producttion output folder
-* you will not be able to serve that folder for testing
-* This can be committed to GH Pages, as the `baseUrl` is set for production
-
+* Set the production output folder using `--output-path`
+* Set the base url for hosting using `--hosting-base-path` 
+* you will not be able to test the folder for testing as the `baseUrl` may not allow your local web server to do so
+* This can be committed to GH Pages, as the `baseUrl` is set for production for how we configured our GH Pages.
 
 ```console
+#                                             # local folder           # repo name
 docc convert Documentation.docc --output-path docs --hosting-base-path bwi2023
 ```
 
 ### GitHub Settings for DocC
 
-* Output the generated HTML to `<repo_root>/docs` on the local drive
+* Output the generated HTML to `~/<repo_root>/docs` on the local drive
 * Set the branch to `docs`and serve from GH Pages the folder within the branch called `/docs`
 
 ![](assets/GHPages.png)
