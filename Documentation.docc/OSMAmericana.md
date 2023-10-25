@@ -25,7 +25,7 @@ The OSM Americana hosts their style at https://zelonewolf.github.io/openstreetma
 
 @TabNavigator {
     @Tab("OSM Americana") {
-        - term Web:  This is a Web first map, os the shields and labels come in via JavaScript.
+        - term Web:  This is a Web first map; the shields and labels come in via JavaScript.
         ![](OSM-A-0)
     }
     
