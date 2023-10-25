@@ -10,6 +10,8 @@
 
 ## Demo Corvallis
 
+
+
 @TabNavigator {
     @Tab("Corvallis 1") {
         ![](Corvallis-2)
@@ -52,3 +54,6 @@
         @Video(source: "Corvallis-A11Y")
     }
 }
+
+
+> Research:  The 1936 data is served from PMTiles.  Need to learn how to properly host `Corvallis.1936.pmtiles` so others can use this research.

@@ -8,7 +8,7 @@ Search research libraries in the United States for raster imagery.
 
 ## Overview
 
-Examples of research libraries with historical aerial imagery.
+Examples of research libraries with historical aerial imagery. 
 
 ### Buffalo.edu
 

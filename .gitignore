@@ -7,6 +7,5 @@
 # Generated from `xcrun docc preview Documentation.docc`
 .docc-build/
 
-*.zip
-Assets/
 tmp/
+.DS_Store
