@@ -21,14 +21,13 @@ To install Swift Docker see:  <https://www.swift.org/install/linux/#installation
 # docker pull swift
 docker run --rm --privileged --interactive --tty \
   --volume $(pwd):/home                          \
+  --workdir /home                                \
   --name swift-latest swift:latest /bin/bash
 ```
 
 ```console
-# within Docker be sure to `cd home` to access the local volume
-cd home
 # make a temporary directory output
-mkdir tmp
+mkdir -p tmp
 ```
 
 ### Staging
@@ -43,6 +42,13 @@ Convert documentation from a source bundle
 # docc -h
 # docc convert -h
 docc convert Documentation.docc --output-path tmp/distFromDocker
+```
+
+Unminify the output for review.
+
+```console
+prettier --write docs/index.html
+prettier --write tmp/distFromDocker/index.html
 ```
 
 ```console

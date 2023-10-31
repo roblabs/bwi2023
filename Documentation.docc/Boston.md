@@ -25,15 +25,15 @@ Boston from 1995 with Apple MapKit for 3D and labels.
 }
 
 
-### Demo 3D Boston
+### Demo 3D Boston 🎥 
 
 @TabNavigator {
     
-    @Tab("3D with Pitch") {
+    @Tab("🎥 3D with Pitch") {
         @Video(source: "Boston-Flyover-1")
     }
     
-    @Tab("3D with Rotate") {
+    @Tab("🎥 3D with Rotate") {
         @Video(source: "Boston-Flyover-2")
     }
 }
