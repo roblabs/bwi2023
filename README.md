@@ -70,6 +70,9 @@ Since we used the switch `--hosting-base-path docs`, and we assume that the `bas
 ```console
 #                                             # local folder           # repo name
 docc convert Documentation.docc --output-path docs --hosting-base-path bwi2023
+
+# optionally, prettier the landing page
+prettier --write docs/index.html
 ```
 
 ### GitHub Settings for DocC
